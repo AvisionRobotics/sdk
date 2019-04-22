@@ -2,6 +2,8 @@
 This is a cross-platform C++ Library for request avisionrobotics.com REST API
 
 # Integration
+  * Add `AvisionAPI.cpp`, `AvisionAPI.h` in your project.
+  * Add `#include "AvisionAPI.h"` to your `*.cpp` file.
 ## Bash
 ```bash
 g++ -lcurl AvisionAPI.cpp test.cpp -o testAPI
