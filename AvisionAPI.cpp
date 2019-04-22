@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <curl/curl.h>
 
-static const char* ServerApiPath = "https://avisionrobotics.com/api/";
+static const char* ServerApiPath = "https://dev.avisionrobotics.com/api/";
 static const char* ServerApiUserAgent = "AvisionAPI/" AvisionAPI_Version;
 
 static const char* HttpMethodGet = "GET";
